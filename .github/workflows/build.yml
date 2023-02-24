@@ -1,4 +1,4 @@
-name: build-ublue
+name: build-dev-toolbox
 on:
   pull_request:
     branches:
