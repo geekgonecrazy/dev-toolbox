@@ -43,7 +43,7 @@ jobs:
           else
             # The following is run when the timer is triggered or a merge/push to main
             echo "date=$(date +%Y%m%d)" >> $GITHUB_OUTPUT
-            alias_tags+=("${{ matrix.major_version }}")
+            alias_tags+=("latest")
           fi
           echo "alias_tags=${alias_tags[*]}" >> $GITHUB_OUTPUT
         
