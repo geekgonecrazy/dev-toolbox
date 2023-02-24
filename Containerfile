@@ -28,6 +28,9 @@ RUN cd /tmp && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -
     ./aws/install && \
     rm -rf aws
 
+RUN cd /tmp && curl -L "https://github.com/sigstore/cosign/releases/download/v1.13.1/cosign-1.13.1.x86_64.rpm" -o cosign.rpm && \
+  rpm -ivh cosign.rpm
+
 COPY bin/ /usr/local/bin/
 
 # Install visual studio code
