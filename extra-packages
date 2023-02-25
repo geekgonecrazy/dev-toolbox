@@ -4,4 +4,6 @@ zsh
 neovim 
 golang 
 util-linux-user
+tmux
+cu
 
