@@ -6,4 +6,10 @@ golang
 util-linux-user
 tmux
 cu
-
+iputils
+net-tools
+netcat
+nmap
+tmux
+rsync
+htop
