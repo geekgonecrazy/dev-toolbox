@@ -1,8 +1,8 @@
 toolbox-support
 flatpak-spawn
 zsh
-neovim 
-golang 
+neovim
+golang
 util-linux-user
 tmux
 cu
@@ -18,7 +18,10 @@ cu
 lxpolkit
 ansible
 bind
+ripgrep
 fzf
+age
+terraform
 httpd-tools
 iproute
 https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-37.noarch.rpm
