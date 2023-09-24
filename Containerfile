@@ -11,6 +11,9 @@ LABEL com.github.containers.toolbox="true" \
 
 RUN dnf group install -y "C Development Tools and Libraries" "Development Tools"
 
+# Need for terraform.  Will replace with tofu once repo is up
+RUN dnf config-manager --add-repo https://rpm.releases.hashicorp.com/fedora/hashicorp.repo
+
 COPY extra-packages /
 RUN dnf -y install $(<extra-packages)
 RUN rm /extra-packages
