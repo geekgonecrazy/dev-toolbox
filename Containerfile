@@ -31,6 +31,9 @@ RUN cd /tmp && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -
     ./aws/install && \
     rm -rf aws
 
+# install k3d
+RUN curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+
 RUN cd /tmp && curl -L "https://github.com/sigstore/cosign/releases/download/v1.13.1/cosign-1.13.1.x86_64.rpm" -o cosign.rpm && \
   rpm -ivh cosign.rpm
 
