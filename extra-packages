@@ -21,7 +21,6 @@ bind
 ripgrep
 fzf
 age
-terraform
 httpd-tools
 iproute
 ipcalc
