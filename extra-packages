@@ -1,3 +1,5 @@
+https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-39.noarch.rpm
+https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-39.noarch.rpm
 toolbox-support
 flatpak-spawn
 zsh
@@ -26,5 +28,3 @@ ipcalc
 docker
 helm
 ripgrep
-https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-37.noarch.rpm
-https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-37.noarch.rpm
