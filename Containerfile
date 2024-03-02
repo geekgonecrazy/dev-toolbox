@@ -17,6 +17,9 @@ RUN rm /extra-packages
 
 RUN dnf clean all
 
+# Install zoxide - https://github.com/ajeetdsouza/zoxide
+RUN curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+
 # Install kubectl
 RUN cd /tmp && curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" && \
     install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl && \
