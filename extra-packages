@@ -30,3 +30,5 @@ helm
 ripgrep
 flashrom
 binwalk
+zig
+rust
